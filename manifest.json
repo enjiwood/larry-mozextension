@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Radify",
+    "version": "0.1",
+    "author": "Nathaniel G. Wood",
+
+    "description": "Makes webpages cool again.",
+    "homepage_url": "https://github.com/enjiwood/radify-mozextension",
+
+    "icons": {
+        "48": "icons/ipod.svg",
+        "96": "icons/ipod.svg"
+    },
+    
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/ipod.svg",
+        "default_title": "Radify",
+        "default_popup": "popup/popup.html"
+    },
+
+    "web_accessible_resources": [
+        "larry.jpg"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "radify@example.com"
+        },
+        "gecko_android": {}
+    }
+}
